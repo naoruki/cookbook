@@ -1,0 +1,136 @@
+body {
+	background-color: #efead8 !important;
+}
+a {
+	color: black !important;
+}
+a:hover {
+	color: #6d8b74 !important;
+}
+.nav-padding {
+	padding-bottom: 20px;
+}
+.navbar-nav-text {
+	margin-right: 200px !important;
+}
+.center {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+.logo {
+	float: right;
+	padding: 5px;
+}
+hr {
+	border: solid 2px #6d8b74 !important;
+	border-bottom: none !important;
+	width: 70%;
+}
+.container {
+	position: static;
+	width: 100% !important;
+}
+.nav-item {
+	padding: 20px;
+}
+.nav-form {
+	justify-content: flex-end !important;
+}
+.nav-item-button {
+	margin-left: 100px;
+}
+.about-us {
+	background-color: #d0c9c0;
+	padding-top: 10px;
+}
+.new-recipe {
+	padding-bottom: 70px;
+}
+.category-box {
+	padding-bottom: 70px;
+}
+.lastest-recipe {
+	padding-top: 20px;
+}
+.features {
+	padding-bottom: 20px;
+}
+.nav-search {
+	padding-left: 30%;
+}
+.category-dropdown {
+	text-align: left;
+	padding-bottom: 10px;
+}
+footer {
+	background-color: #d0c9c0;
+	padding: 30px 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 60px; /* Height of the footer */
+}
+.loginBox {
+	display: block;
+}
+.registerBox {
+	display: none;
+}
+.model-header-border {
+	border-bottom: none !important;
+}
+.recipe-box {
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-bottom: 20px;
+}
+#nav-login {
+	padding-top: 10px;
+}
+#nav-register {
+	padding-top: 10px;
+}
+#recipeTable_wrapper,
+#recipeCategoryTable_wrapper,
+#favouriteTable_wrapper {
+	padding-bottom: 70px;
+}
+.header-title {
+	text-align: center;
+}
+.error-msg {
+	color: red;
+	font-weight: bold;
+}
+.img-thumbnail {
+	max-width: 100% !important;
+}
+@media (max-width: 1028px) {
+	.nav-item {
+		padding: 0px;
+		position: static;
+	}
+	.logo {
+		position: static;
+	}
+	.nav-bar {
+		padding-top: 0px;
+	}
+	.nav-item {
+		padding: auto;
+	}
+	.nav-padding {
+		padding: 0px;
+	}
+	.d-flex {
+		display: block !important;
+	}
+	.nav-search {
+		padding-left: 0;
+	}
+	.recipe-box {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
